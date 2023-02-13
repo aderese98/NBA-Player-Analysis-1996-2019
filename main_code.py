@@ -7,7 +7,7 @@ import random
 from PIL import Image
 from wordcloud import WordCloud,STOPWORDS
 
-def Abraham_Code():
+def Predictions():
     #CSV Read
     nba_data = pd.read_csv('nba_17-18_win_loss.csv')
     
@@ -210,7 +210,7 @@ def Abraham_Code():
     print('year to visualize further performance predictions for later years')
     make_cloud()
     
-def Itai_Code():
+def Ratings():
     # printing the all players net ratings using my first feature- panda.
     df = pd.read_csv("all_seasons.csv")
     print(df)
@@ -266,7 +266,7 @@ def Itai_Code():
     plt.axis("off")
     plt.show()
 
-def Heather_Code():
+def Visualization():
     plt.rcParams.update({'font.size': 20, 'figure.figsize': (10, 8)}) # set font and plot size to be larger
     
     # read the file and check that it read in correctly
@@ -400,13 +400,13 @@ print("Welcome to the Group 6 NBA Analysis Project.")
 print("Each group members code can be found in their respective function.")
 
 while input("Do You Want To Continue? [y/n]") == "y":
-    print("\n====This is Abrahams section====\n")
-    Abraham_Code()
+    print("\n====This is the Predictions section====\n")
+    Predictions()
     if input("Do You Want To Continue? [y/n]") == 'n':
         break
-    print("\n====This is Itais section====\n")
-    Itai_Code()
+    print("\n====This is Ratings section====\n")
+    Ratings()
     if input("Do You Want To Continue? [y/n]") == 'n':
         break
-    print("\n====This is Heathers section====\n")
-    Heather_Code()
+    print("\n====This is Visualizations section====\n")
+    Visualization()
