@@ -37,3 +37,30 @@ NBA Elo has a special calculation taking to consideration the unique aspects of 
 ![image](https://user-images.githubusercontent.com/101474440/218356966-c595a96f-fd28-4d32-9e24-40d554a09365.png)
 
 ### Most Games Played
+![image](https://user-images.githubusercontent.com/101474440/218357144-8c2a01ba-751a-4f3a-957a-172f124798b6.png)
+
+### Highest Averge Points per Game
+![image](https://user-images.githubusercontent.com/101474440/218357179-967107b2-d97e-482f-9849-54a389c70cc0.png)
+
+### Top Scorers
+![image](https://user-images.githubusercontent.com/101474440/218357203-c89d0b9b-f86f-4d81-ad15-d1e850800bc4.png)
+
+### Best Player Ratings in the NBA
+![image](https://user-images.githubusercontent.com/101474440/218357235-79bd0c85-f8b7-4a23-95d7-8fbcb0c189b3.png)
+
+## Elo Ratings
+
+### 2016 - 2017
+![image](https://user-images.githubusercontent.com/101474440/218357270-a28faba9-ccfe-4156-9515-1e4925fa4323.png)
+
+### Translated Formula in Python
+![image](https://user-images.githubusercontent.com/101474440/218357302-fd63a835-23aa-4274-a5f8-62eafb917280.png)
+
+### 2017 - 2018
+![image](https://user-images.githubusercontent.com/101474440/218357331-dae37d78-da4e-450e-9e2a-563a1ca6eaf0.png)
+
+## Predictions
+![image](https://user-images.githubusercontent.com/101474440/218357381-38f161c4-88a8-46cb-a81f-b6f39e31576c.png)
+
+# Future Implementations
+I would like to include being able to ask for user input and make this more of a usable app instead of just a data generating program.  I think there could be more done with the age analysis.  Finally, being able to find player salaries for each year and being able to do financial analysis would have been helpful.  Were the players worth the salaries paid? Are there players that should have been paid more?  I was also hoping to be able to break down stats by position but that was one piece of data missing from my dataset.  
